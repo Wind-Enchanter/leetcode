@@ -18,8 +18,8 @@ class Solution:
                 matrix[j][n-1-i] = temp
         return matrix
 
-if __name__=="__main__":
-    my_so = Solution()
-    temp = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
-    res = my_so.rotate(temp)
-    print(str(res))
+# if __name__=="__main__":
+#     my_so = Solution()
+#     temp = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
+#     res = my_so.rotate(temp)
+#     print(str(res))
